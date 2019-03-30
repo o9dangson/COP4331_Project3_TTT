@@ -662,8 +662,8 @@ public class MainView {
 			isP2MarkerString = true;
 		
 		//Audio
-		Media victorySound = new Media(new File("src/victory.mp3").toURI().toString());
-		Media loserSound = new Media(new File("src/Looser-sound-effect.mp3").toURI().toString());
+		Media victorySound = new Media(new File("/victory.mp3").toURI().toString());
+		Media loserSound = new Media(new File("/Looser-sound-effect.mp3").toURI().toString());
 		MediaPlayer mp1 = new MediaPlayer(victorySound);
 		MediaPlayer mp2 = new MediaPlayer(loserSound);
 		
