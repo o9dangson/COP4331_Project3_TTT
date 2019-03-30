@@ -1,0 +1,49 @@
+.root{
+	-fx-background-color: white;
+	-fx-font-size: 10pt;
+		-fx-font-family: "Verdana";
+		-fx-background: rgb(225,228,203);
+}
+
+.greenButton{
+	-fx-color: green;
+}
+
+.redButton{
+	-fx-color: red;
+}
+
+.orangeButton{
+	-fx-color: orange;
+}
+
+.greenButton:hover, .redButton:hover, .orangeButton:hover{
+	-fx-color: #CCCCCC;
+}
+
+.image:hover{
+	-fx-background: #EEEEEE;
+}
+
+.table{
+	-fx-font: 12pt "Arial"
+}
+
+.tableHeader{
+	-fx-font: bold 12pt "Arial";
+}
+
+#twoDArr{
+	-fx-font: bold 20pt "Arial";
+	-fx-text-fill: #000000;
+}
+
+#help{
+	-fx-font: bold 15pt "Arial";
+	-fx-fill: orange;
+}
+
+#gameMode{
+	-fx-font: bold 20pt "Arial";
+	-fx-fill: #2f9dbf;
+}
